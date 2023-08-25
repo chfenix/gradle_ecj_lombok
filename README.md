@@ -32,11 +32,6 @@ Type parameter 'org.example.TClass' is not within its bound; should extend 'org.
 在build.gradle中使用ecj插件io.github.themrmilchmann.ecj
 ```gradle
 plugins {
-    id 'java'
-    id 'war'
-    id 'org.springframework.boot' version '3.0.0'
-    id 'io.spring.dependency-management' version '1.1.0'
-    id 'com.github.node-gradle.node' version '3.5.0'
     id "io.github.themrmilchmann.ecj" version "0.2.0"
 }
 ```
